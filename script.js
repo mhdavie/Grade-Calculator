@@ -6,7 +6,7 @@ var fourthBimester = 2.35
 
 var finalGrade = (firstBimester + secondBimester + thirdBimester + fourthBimester) / 4
 
-// var fixedGrade = finalGrade.toFixed()
+var fixedGrade = finalGrade.toFixed(1)
 
 // var halfYear = (firstBimester + secondBimester)
 
@@ -15,6 +15,6 @@ var finalGrade = (firstBimester + secondBimester + thirdBimester + fourthBimeste
 // var finalGrade = (halfYear + secondHalfYear) / 4
 
 
-console.log (finalGrade)
+console.log (fixedGrade)
 
 
